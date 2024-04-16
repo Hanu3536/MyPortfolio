@@ -1,0 +1,40 @@
+[
+    {
+      "role": "Front- end Developer",
+      "organisation": "Sandman Media Inc",
+      "startDate": "Aug, 2023",
+      "endDate": "Present",
+      "experiences": ["Developed and Modified forthcoming website", "Increased user experience by 50%"],
+      "imageSrc": "history/Smedia.png"
+    },
+    {
+      "role": "Web Developer Intern",
+      "organisation": "Sandman Media Inc",
+      "startDate": "Jan, 2023",
+      "endDate": "Apr, 2022",
+      "experiences": ["Worked on 20 daily website updates", "Modified the websites"],
+      "imageSrc": "history/microsoft.png"
+    },
+    {
+      "role": "Senior Web Developer",
+      "organisation": "Technoarete R & D Association",
+      "startDate": "Aug, 2021",
+      "endDate": "Jan, 2019",
+      "experiences": [
+        "Worked on component library",
+        "Helped create UI components"
+      ],
+      "imageSrc": "history/netflix.png"
+    },
+    {
+      "role": "Web Developer",
+      "organisation": "Technoarete R & D Association",
+      "startDate": "Dec, 2018",
+      "endDate": "May, 2017",
+      "experiences": [
+        "Worked on component library",
+        "Helped create UI components"
+      ],
+      "imageSrc": "history/netflix.png"
+    }
+  ]
