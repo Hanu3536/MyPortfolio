@@ -34,9 +34,9 @@ export const Experience = () => {
                   <h3>{`${historyItem.role}, ${historyItem.organisation}`}</h3>
                   <p>{`${historyItem.startDate} - ${historyItem.endDate}`}</p>
                   <ul>
-                    {historyItem.experiences.map((experience, id) => {
+                    {/*{historyItem.experiences.map((experience, id) => {
                       return <li key={id}>{experience}</li>;
-                    })}
+                    })}*/}
                   </ul>
                 </div>
               </li>

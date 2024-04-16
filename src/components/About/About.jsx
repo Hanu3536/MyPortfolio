@@ -13,7 +13,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Frontend Developer</h3>
               <p>
-                As a front-end developer, I focus mainly on the functinality and user ecperience while navigating through the website.
+                As a front-end developer, I focus mainly on the functinality and user interface and experience to provide smooth navigation throughout the website.
               </p>
             </div>
           </li>
@@ -22,8 +22,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Backend Developer</h3>
               <p>
-                I have experience developing fast and optimised back-end systems
-                and APIs
+              In the backend I preferred SQL, AWS Cognito to provide the authentication service and data storing and JSON, RESTFul API to get the data.  
               </p>
             </div>
           </li>
@@ -32,8 +31,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>UI Designer</h3>
               <p>
-                I have designed multiple landing pages and have created design
-                systems as well
+                I preferred Figma because it has an excellent flexibility to create any visualized user interface helps developers to acheive the best practices.
               </p>
             </div>
           </li>
