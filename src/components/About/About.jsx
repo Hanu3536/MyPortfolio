@@ -22,7 +22,7 @@ export const About = () => {
             <div className={styles.aboutItemText}>
               <h3>Backend Developer</h3>
               <p>
-              In the backend I preferred SQL, AWS Cognito to provide the authentication service and data storing and JSON, RESTFul API to get the data.  
+              In backend development, I utilized SQL databases for data storage and AWS Cognito for authentication services, alongside implementing JSON-based RESTful APIs for seamless data retrieval and manipulation.  
               </p>
             </div>
           </li>
