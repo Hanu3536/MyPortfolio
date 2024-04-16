@@ -14,13 +14,13 @@
   font-size: 30px;
   font-weight: 600;
   text-decoration: none;
-  color: var(--color-text);
+  color: var(--color-primary);
   display: flex;
 }
 
-
 .menuBtn {
   display: none;
+  color: var(--color-secondary);;
 }
 
 .menu {
@@ -36,7 +36,7 @@
 
 .menuItems a {
   font-size: 25px;
-  color: var(--color-primary);
+  color: var(--color-secondary);
   text-decoration: none;
 }
 
@@ -55,6 +55,13 @@
     width: 100px;
     height:auto;
     flex-shrink: inherit;
+    color: var(--color-secondary);
+  }
+
+  .image{
+    width: 100px;
+    height: auto;
+    align-items: center;
   }
 
   .menu {
@@ -65,11 +72,13 @@
     align-items: flex-end;
     gap: 11px;
     z-index: 3;
+    color: var(--color-secondary);
   }
 
   .menuBtn {
     display: block;
     cursor: pointer;
+    background:linear-gradient(180deg, #bdc3d5 0%, #213860 100%);
   }
 
   .menuItems {
@@ -78,11 +87,11 @@
     align-items: center;
     gap: 13px;
     border-radius: 10px;
-    background: rgb(25, 55, 109);
+    background: rgb(197, 202, 210);
     background: linear-gradient(
       0deg,
-      rgba(25, 55, 109, 0.2) 0%,
-      rgba(25, 55, 109, 1) 100%
+      rgba(77, 100, 139, 0.2) 0%,
+      rgb(159, 171, 193) 100%
     );
     padding: 24px 33px;
     box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
@@ -91,5 +100,6 @@
   .menuOpen {
     display: flex;
     z-index: 1;
+    color: var(--color-secondary);
   }
 }

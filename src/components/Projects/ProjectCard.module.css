@@ -11,6 +11,7 @@
   max-width: 335px;
   width: auto;
   align-items: center;
+  gap: 30px;
 }
 
 .image {
