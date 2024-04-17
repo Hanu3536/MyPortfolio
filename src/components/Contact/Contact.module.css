@@ -1,6 +1,8 @@
 @import "../../vars.css";
 
+/* General styling */
 .container {
+  position: relative;
   color: var(--color-text);
   margin-top: 50px;
   background: linear-gradient(180deg, #8d92a7 0%, #132a53 100%);
@@ -12,6 +14,7 @@
   gap: 10px;
 }
 
+/* Contact button */
 .contactBtn {
   text-decoration: none;
   background-color: var(--color-dark);
@@ -22,13 +25,39 @@
   padding: 17px 17px;
   margin-top: 50px;
   box-shadow: 0 0 4px 0 hsla(0, 0%, 0%, 0.222);
+  position: relative;
 }
 
-.contactBtn:hover{
+.contactBtn:hover {
   padding: 17px 26px;
   border-bottom: 3px solid rgb(224, 224, 210);
 }
 
+/* Form styling */
+.showForm{
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.form{
+  background-color: white;
+  border-radius: 10px;
+  padding: 2rem;
+  width: 30rem;
+}
+
+.content{
+  border:none;
+}
+
+/* Text styling */
 .text h2 {
   font-size: 30px;
   font-weight: 700;
@@ -42,6 +71,7 @@
   letter-spacing: 2px;
 }
 
+/* Links styling */
 .links {
   display: flex;
   flex-direction: column;
@@ -64,12 +94,14 @@
   letter-spacing: 1.5px;
 }
 
+/* Responsive styling */
 @media screen and (max-width: 830px) {
   .container {
     flex-direction: column;
     gap: 23px;
   }
-  .contactBtn{
+
+  .contactBtn {
     display: flex;
     align-items: center;
   }
