@@ -2,23 +2,23 @@
     {
       "title": "TravGuide",
       "imageSrc": "projects/project2.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
+      "description": "Places to visit in a place are one click away",
       "skills": ["React", "Express", "Node", "Sass"],
       "demo": "https://www.example.com",
       "source": "https://github.com/Hanu3536/TravGuide"
     },
     {
       "title": "Portfolio",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
+      "imageSrc": "projects/project3.png",
+      "description": "Framing  the list of my experience and skills",
       "skills": ["React", "Express", "Node"],
       "demo": "https://www.example.com",
       "source": "https://github.com/Hanu3536/MyPortfolio"
     },
     {
       "title": "SLP- Structured Learning Platform ",
-      "imageSrc": "projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
+      "imageSrc": "projects/project (2).png",
+      "description": "Video Learning Platform",
       "skills": ["React", "Express", "Node"],
       "demo": "https://www.example.com",
       "source": "https://github.com/Hanu3536/SLP-Structred-Learning-Platform-"
