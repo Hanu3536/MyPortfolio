@@ -10,6 +10,7 @@
   padding: 18px 24px;
   max-width: 335px;
   width: auto;
+  height: auto;
   align-items: center;
   gap: 30px;
   overflow: hidden;
@@ -27,12 +28,14 @@
   font-size: 20px;
   font-weight: 700;
   align-self: center;
+  
 }
 
 .description {
-  margin-top: 6px;
+  margin-top: 5px;
   font-size: 19px;
   font-weight: 400;
+  justify-self: flex-start;
 }
 
 /*.skills {
