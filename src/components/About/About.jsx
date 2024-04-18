@@ -6,7 +6,7 @@ import { getImageUrl } from "../../utils";
 export const About = () => {
   return (
     <section className={styles.container} id="about">
-      <h2 className={styles.title}>About</h2>
+      <h2 className={styles.title}>Expertise</h2>
       <div className={styles.content}>
         <ul className={styles.aboutItems}>
           <li className={styles.aboutItem}>
@@ -20,7 +20,7 @@ export const About = () => {
           <li className={styles.aboutItem}>
             {/*<img src={getImageUrl("about/serverIcon.png")} alt="Server icon" />*/}
             <div className={styles.aboutItemText}>
-              <h3>Backend Developer</h3>
+              <h3>Web Developer</h3>
               <p>
               In backend development, I utilized SQL databases for data storage and AWS Cognito for authentication services, alongside implementing JSON-based RESTful APIs for seamless data retrieval and manipulation.  
               </p>
