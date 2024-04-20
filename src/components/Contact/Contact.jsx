@@ -1,19 +1,9 @@
-import React, { useState } from "react";
+import React  from "react";
 
 import styles from "./Contact.module.css";
 import { getImageUrl } from "../../utils";
 
 export const Contact = () => {
-  /*const [showModal, setShowModal] = useState(false);
-  const toggleModal = (event) => {
-    event.preventDefault();
-    setShowModal(!showModal);
-  };
-  const handleSubmit = (event) => {
-    event.preventDefault();
-    // Add your submit logic here
-    console.log("Form submitted");
-  };*/
   return (
     <footer id="contact" className={styles.container}>
       <div className={styles.text}>
@@ -21,20 +11,6 @@ export const Contact = () => {
         <a href="https://www.linkedin.com/in/naga-h-chadalavada" target= "blank" className={styles.contactBtn}>
           Let's Connect
         </a>
-        {/*{showModal && (
-          <form className={styles.showForm}>
-            <div className={styles.form}>
-              <div className={styles.content}>
-                <label htmlFor="message">Message:</label>
-                <textarea id="message" name="message" />
-              </div>
-            </div>
-            <div classname={styles.footer}>
-              <button className={styles.submit} type="submit">Submit</button>
-              <button className= {styles.close} onClick={toggleModal} type="button">Close</button>
-            </div>
-          </form>
-        )}*/}
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>

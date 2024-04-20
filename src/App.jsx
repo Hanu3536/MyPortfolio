@@ -5,6 +5,9 @@ import { Experience } from "./components/Experience/Experience";
 import { Intro } from "./components/Intro/Intro";
 import { Navbar } from "./components/Navbar/Navbar";
 import { Projects } from "./components/Projects/Projects";
+import ReactGA from 'react-ga';
+
+ReactGA.initialize('G-M4TSKB8D72');
 
 function App() {
   return (
