@@ -1,12 +1,12 @@
-import React, {useState, useEffect, useRef} from "react";
+import React, { useState, useEffect, useRef } from "react";
 
 import styles from "./Contact.module.css";
 import { getImageUrl } from "../../utils";
 
 export const Contact = () => {
   const [showForm, setShowForm] = useState(false);
-  const[message, setMessage] = useState("");
-  const[showMessage, setShowMessage] = useState(false);
+  const [message, setMessage] = useState("");
+  const [showMessage, setShowMessage] = useState(false);
   const formRef = useRef(null);
 
   useEffect(() => {
@@ -55,24 +55,26 @@ export const Contact = () => {
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>
-          <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" loading="lazy"/>
-          <a href="mailto:hanuca3536@gmail.com" target= "blank">hanuca3536@gmail.com</a>
+          <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" loading="lazy" />
+          <a href="mailto:hanuca3536@gmail.com" target="blank">hanuca3536@gmail.com</a>
         </li>
         <li className={styles.link}>
           <img
-            src={getImageUrl("contact/linkedinIcon.png")} alt="LinkedIn icon" loading="lazy"/>
-          <a href="https://www.linkedin.com/in/naga-h-chadalavada" target= "blank">linkedin.com/in/naga-h-chadalavada</a>
+            src={getImageUrl("contact/linkedinIcon.png")} alt="LinkedIn icon" loading="lazy" />
+          <a href="https://www.linkedin.com/in/naga-h-chadalavada" target="blank">linkedin.com/in/naga-h-chadalavada</a>
         </li>
         <li className={styles.link}>
-          <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" loading="lazy"/>
-          <a href="https://github.com/Hanu3536?tab=repositories" target= "blank">https://github.com/Hanu3536</a>
+          <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" loading="lazy" />
+          <a href="https://github.com/Hanu3536?tab=repositories" target="blank">https://github.com/Hanu3536</a>
         </li>
       </ul>
       {showForm && (
-        <div className={styles.modal} ref = {formRef}>
+        <div className={styles.modal} ref={formRef}>
           <div className={styles.modalContent}>
-            <span className={styles.close} onClick={handleCloseForm}>&times;</span>
-            <h2>Let's Connect</h2>
+            <div className={styles.headerContainer}>
+              <h2 className={styles.header}>Let's Connect</h2>
+              <span className={styles.close} onClick={handleCloseForm}>&times;</span>
+            </div>
             <form onSubmit={handleSubmit}>
               <div className={styles.formGroup}>
                 <label htmlFor="email">Email:</label>

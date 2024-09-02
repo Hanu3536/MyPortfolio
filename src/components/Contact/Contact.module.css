@@ -155,12 +155,22 @@ textarea {
   box-shadow: 0 0 10px rgba(163, 122, 122, 0.2);
 }
 
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header{
+  margin: 0;
+  font-size: 24px;
+}
 .close {
-  position: absolute;
-  top: 10px;
-  right: 10px;
+  position: right;
+  padding-left: 10px;
+  font-size: 24px;
   cursor: pointer;
-  color: #132a53;
+  color: #a1a4a8;
 }
 
 form {
