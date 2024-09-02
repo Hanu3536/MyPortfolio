@@ -12,6 +12,7 @@ export const ProjectCard = ({
       <img
         src={getImageUrl(imageSrc)}
         alt={`Image of ${title}`}
+        loading="lazy"
         className={styles.image}
       />
       <h3 className={styles.title}>{title}</h3>

@@ -12,13 +12,13 @@ export const Intro = () => {
         <p className={styles.description}>
           Experienced frontend developer specialized in creating dynamic responsive websites that prioritize user experience.
         </p>
-        <a href={getFileUrl('hero/Resume-Naga Hanumantharao Chadalavada.pdf')} target="blank" className={styles.contactBtn}>
+        <a href={getFileUrl('hero/Naga H Chadalavada.pdf')} target="blank" className={styles.contactBtn}>
           Resume
         </a>
       </div>
       <img
         src={getImageUrl("hero/heroImage.png")}
-        alt="Hero image of me"
+        alt="Hero image of me" loading="lazy"
         className={styles.heroImg}
       />
       <div className={styles.topBlur} />
